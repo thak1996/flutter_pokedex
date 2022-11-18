@@ -1,6 +1,4 @@
-// ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'package:flutter/material.dart';
-
 import 'package:flutter_pokedex/common/models/pokemon.dart';
 import 'package:flutter_pokedex/features/pokedex/screens/details/container/details_container.dart';
 import 'package:flutter_pokedex/features/pokedex/screens/home/pages/widgets/type_widget.dart';
@@ -8,8 +6,8 @@ import 'package:flutter_pokedex/features/pokedex/screens/home/pages/widgets/type
 class PokemonItemWidget extends StatelessWidget {
   const PokemonItemWidget({
     Key? key,
-    required this.pokemon,
     required this.onTap,
+    required this.pokemon,
   }) : super(key: key);
   final Pokemon pokemon;
   final Function(String, DetailArguments) onTap;
