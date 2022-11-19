@@ -1,5 +1,4 @@
 import 'dart:convert';
-
 import 'package:dio/dio.dart';
 import 'package:flutter_pokedex/common/consts/api_consts.dart';
 import 'package:flutter_pokedex/common/error/failure.dart';
